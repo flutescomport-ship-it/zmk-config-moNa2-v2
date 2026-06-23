@@ -130,36 +130,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - {t: ▽, type: trans}
+  - ESCAPE
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
+  - Alt+F4
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
+  - DELETE
   - UP ARROW
-  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LCAPS
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
+  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
+  - LSHIFT
   - {t: ▽, type: trans}
-  - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
   - PAGE UP
   - PAGE DOWN
   - {t: ▽, type: trans}
