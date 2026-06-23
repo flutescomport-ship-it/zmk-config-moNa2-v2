@@ -143,8 +143,8 @@ layers:
   - LCAPS
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
+  - Ctl+Gui+LEFT ARROW
+  - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
