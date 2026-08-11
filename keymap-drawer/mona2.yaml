@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - '='
+  - {t: ▽, type: trans}
   - /
   - '*'
   - '4'
@@ -76,7 +76,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '0'
+  - '='
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
