@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ':'
+  - '?'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,8 +33,8 @@ layers:
   - M
   - ','
   - .
-  - /
-  - LCTRL
+  - {t: /, h: RIGHT SHIFT}
+  - {t: ^, h: '1'}
   - LEFT WIN
   - LEFT ALT
   - BACKSPACE
@@ -42,7 +42,7 @@ layers:
   - {t: LANG2, h: '3'}
   - {t: LANG1, h: '3'}
   - {t: ENTER, h: '1'}
-  - {t: DELETE, h: RIGHT SHIFT}
+  - DELETE
   '1':
   - '1'
   - '2'
@@ -65,7 +65,7 @@ layers:
   - '5'
   - '6'
   - LCTRL
-  - {t: ▽, type: trans}
+  - '&to_layer_0 NUMBER_0'
   - {t: ▽, type: trans}
   - <
   - '>'
@@ -76,15 +76,15 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&to_layer_0 N0'
-  - {t: ▽, type: trans}
+  - '0'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ','
-  - {t: ., type: held}
+  - .
   - {t: ▽, type: trans}
   '2':
   - '!'
