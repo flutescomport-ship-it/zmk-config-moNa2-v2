@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - {t: ^, h: '1'}
+  - {t: LEFT CONTROL, h: '1'}
   - LEFT WIN
   - LEFT ALT
   - BACKSPACE
