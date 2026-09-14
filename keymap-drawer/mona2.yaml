@@ -42,7 +42,7 @@ layers:
   - {t: LANG2, h: '3'}
   - {t: LANG1, h: '3'}
   - {t: ENTER, h: '1'}
-  - DELETE
+  - {t: DELETE, h: '2'}
   '1':
   - '1'
   - '2'
@@ -78,7 +78,7 @@ layers:
   - '3'
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
