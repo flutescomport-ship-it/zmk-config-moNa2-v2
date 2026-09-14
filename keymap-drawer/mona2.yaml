@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - RIGHT ALT
   - {t: ▽, type: trans}
-  - C
+  - {t: ▽, type: trans}
   '3':
   - ESCAPE
   - Ctl+Sft+TAB
