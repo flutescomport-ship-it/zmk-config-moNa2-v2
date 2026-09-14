@@ -101,7 +101,7 @@
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND       &kp DOLLAR       &kp PERCENT                             &kp AMPERSAND  &kp SQT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
 &kp GRAVE        &kp AT_SIGN        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                &kp UNDERSCORE  &kp TILDE      &mkp MB1  &mkp MB2              &kp LCTRL              &kp QUESTION
 &kp F1           &kp F2             &kp F3          &kp F4           &kp F5       &kp F11    &kp F12         &kp F6         &kp F7    &kp F8                &kp F9                 &kp F10
-&kp LEFT_ALT     &trans             &trans          &trans           &trans       &trans     &kp RIGHT_ALT   &trans                                                                &trans
+&kp LEFT_ALT     &trans             &trans          &trans           &trans       &trans     &kp RIGHT_ALT   &trans                                                                &kp C
             >;
 
             sensor-bindings = <&scroll_up_down>;
