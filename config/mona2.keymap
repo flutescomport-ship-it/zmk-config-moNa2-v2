@@ -101,7 +101,7 @@
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND       &kp DOLLAR       &kp PERCENT                             &kp AMPERSAND  &kp SQT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
 &kp GRAVE        &kp AT_SIGN        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                &kp UNDERSCORE  &kp TILDE      &mkp MB1  &mkp MB2              &kp LCTRL              &kp QUESTION
 &kp F1           &kp F2             &kp F3          &kp F4           &kp F5       &kp F11    &kp F12         &kp F6         &kp F7    &kp F8                &kp F9                 &kp F10
-&trans           &trans             &trans          &trans           &trans       &trans     &trans          &trans                                                                &trans
+&kp LEFT_ALT     &trans             &trans          &trans           &trans       &trans     &kp RIGHT_ALT   &trans                                                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LA(F4)                                 &trans  &kp DELETE      &kp UP_ARROW    &trans           &trans
-&kp LCAPS   &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LSHIFT  &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &trans          &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans      &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&kp ESCAPE  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LA(F4)                                               &trans  &kp DELETE      &kp UP_ARROW    &trans           &trans
+&kp LCAPS   &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))                          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LSHIFT  &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &kp LS(LC(NUMBER_1))    &trans  &trans  &trans          &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&trans      &trans              &trans                  &trans                   &trans                   &trans                  &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
