@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '3'}
   - A
   - S
   - D
@@ -139,7 +139,7 @@ layers:
   - DELETE
   - UP ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LCAPS
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
