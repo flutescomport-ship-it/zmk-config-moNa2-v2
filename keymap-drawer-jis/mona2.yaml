@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - MINUS
+  - {t: '-', s: '=', type: sym_by_sym}
   - H
   - J
   - K
@@ -31,9 +31,9 @@ layers:
   - {t: '&to_layer_0 SEMICOLON', h: '4'}
   - N
   - M
-  - COMMA
+  - {t: ',', s: <, type: sym_by_sym}
   - DOT
-  - {t: SLASH, h: RIGHT SHIFT}
+  - {t: /, h: RIGHT SHIFT, s: '?'}
   - LEFT CONTROL
   - LEFT WIN
   - LEFT ALT
@@ -56,22 +56,22 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - ']'
-  - '@'
-  - '['
+  - {t: '@', s: '{', type: sym_by_sym}
+  - {t: '[', s: '`', type: sym_by_sym}
   - {t: \, s: _, type: sym_by_sym}
-  - SLASH
+  - {t: /, s: '?', type: sym_by_sym}
   - (
   - '4'
   - '5'
   - {t: '6', s: '&', type: sym_by_sym}
-  - PERIOD
+  - {t: ., s: '>', type: sym_by_sym}
   - '&to_layer_0 NUMBER_0'
   - {type: held}
   - LESS THAN
   - GREATER THAN
   - {t: \, s: '|', type: sym_by_sym}
   - {t: ▽, type: trans}
-  - MINUS
+  - {t: '-', s: '=', type: sym_by_sym}
   - '~'
   - '1'
   - '2'
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - COMMA
+  - {t: ',', s: <, type: sym_by_sym}
   '2':
   - EXCLAMATION
   - '*'
