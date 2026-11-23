@@ -9,7 +9,10 @@ parse_config:
       tap: "["
       shifted: "`"
       type: sym_by_sym
-    BACKSLASH: "]"
+    BACKSLASH:
+      tap: "]"
+      shifted: "}"
+      type: sym_by_sym
     PLUS: "~"
     ASTERISK: "("
     EQUAL:
