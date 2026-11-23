@@ -1,0 +1,11 @@
+parse_config:
+  zmk_keycode_map:
+    LEFT_BRACKET: "@"
+    RIGHT_BRACKET: "["
+    PLUS: "~"
+    ASTERISK: "("
+    EQUAL: "^"
+    AT_SIGN: '"'
+    LEFT_BRACE: "`"
+    RIGHT_BRACE: "{"
+    DOUBLE_QUOTES: "*"
