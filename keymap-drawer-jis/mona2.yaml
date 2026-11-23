@@ -16,12 +16,12 @@ layers:
   - D
   - F
   - G
-  - '-'
+  - MINUS
   - H
   - J
   - K
   - L
-  - {t: '?', h: '2'}
+  - {t: QUESTION, h: '2'}
   - {t: Z, h: LEFT SHIFT}
   - {t: X, h: '1'}
   - C
@@ -31,9 +31,9 @@ layers:
   - {t: '&to_layer_0 SEMICOLON', h: '4'}
   - N
   - M
-  - ','
-  - .
-  - {t: /, h: RIGHT SHIFT}
+  - COMMA
+  - DOT
+  - {t: SLASH, h: RIGHT SHIFT}
   - LEFT CONTROL
   - LEFT WIN
   - LEFT ALT
@@ -56,27 +56,27 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '@'
   - '['
-  - ']'
-  - ^
-  - /
-  - '*'
+  - CARET
+  - SLASH
+  - (
   - '4'
   - '5'
   - '6'
-  - .
+  - PERIOD
   - '&to_layer_0 NUMBER_0'
   - {type: held}
-  - <
-  - '>'
+  - LESS THAN
+  - GREATER THAN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - +
+  - MINUS
+  - '~'
   - '1'
   - '2'
   - '3'
-  - '='
+  - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,29 +85,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ','
+  - COMMA
   '2':
-  - '!'
+  - EXCLAMATION
+  - '*'
+  - POUND
+  - DOLLAR
+  - PERCENT
+  - AMPERSAND
+  - SQT
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - NON US BACKSLASH
+  - GRAVE
   - '"'
-  - '#'
-  - $
-  - '%'
-  - '&'
-  - ''''
-  - (
-  - )
-  - \
   - '`'
-  - '@'
   - '{'
-  - '}'
-  - '|'
-  - _
-  - '~'
+  - PIPE
+  - UNDERSCORE
+  - TILDE
   - '&mkp MB1'
   - '&mkp MB2'
   - LCTRL
-  - {t: '?', type: held}
+  - {t: QUESTION, type: held}
   - F1
   - F2
   - F3
