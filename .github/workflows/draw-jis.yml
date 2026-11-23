@@ -1,0 +1,18 @@
+name: "Draw ZMK Keymap (JIS)"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2
+    permissions:
+      contents: write
+    with:
+      commit_message: "[Draw JIS] Update keymap drawing"
+      amend_commit: false
+      keymap_patterns: "config/*.keymap"
+      json_path: "config"
+      config_path: "keymap_drawer_jis.config.yaml"
+      output_folder: "keymap-drawer-jis"
+      destination: "both"
