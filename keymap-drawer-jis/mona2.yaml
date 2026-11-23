@@ -44,15 +44,15 @@ layers:
   - {t: ENTER, h: '1'}
   - {t: DELETE, h: RIGHT CONTROL}
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: '1', s: '!', type: sym_by_sym}
+  - {t: '2', s: '"', type: sym_by_sym}
+  - {t: '3', s: '#', type: sym_by_sym}
+  - {t: '4', s: $, type: sym_by_sym}
+  - {t: '5', s: '%', type: sym_by_sym}
   - {t: '6', s: '&', type: sym_by_sym}
-  - '7'
-  - '8'
-  - '9'
+  - {t: '7', s: '''', type: sym_by_sym}
+  - {t: '8', s: (, type: sym_by_sym}
+  - {t: '9', s: ), type: sym_by_sym}
   - '0'
   - {t: ▽, type: trans}
   - ']'
@@ -61,7 +61,7 @@ layers:
   - {t: \, s: _, type: sym_by_sym}
   - {t: /, s: '?', type: sym_by_sym}
   - (
-  - '4'
+  - {t: '4', s: $, type: sym_by_sym}
   - '5'
   - {t: '6', s: '&', type: sym_by_sym}
   - {t: ., s: '>', type: sym_by_sym}
@@ -73,9 +73,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: '-', s: '=', type: sym_by_sym}
   - '~'
-  - '1'
-  - '2'
-  - '3'
+  - {t: '1', s: '!', type: sym_by_sym}
+  - {t: '2', s: '"', type: sym_by_sym}
+  - {t: '3', s: '#', type: sym_by_sym}
   - {t: ^, s: '~', type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,7 +156,7 @@ layers:
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
-  - Sft+Ctl+1
+  - {t: Sft+Ctl+1, s: Sft+Ctl+!, type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
