@@ -76,7 +76,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - ^
+  - {t: ^, s: '~', type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
