@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: QUESTION, h: '2'}
+  - {t: '?', h: '2'}
   - {t: Z, h: LEFT SHIFT}
   - {t: X, h: '1'}
   - C
@@ -67,8 +67,8 @@ layers:
   - {t: ., s: '>', type: sym_by_sym}
   - '&to_layer_0 NUMBER_0'
   - {type: held}
-  - LESS THAN
-  - GREATER THAN
+  - <
+  - '>'
   - {t: \, s: '|', type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: '-', s: '=', type: sym_by_sym}
@@ -87,11 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ',', s: <, type: sym_by_sym}
   '2':
-  - EXCLAMATION
+  - '!'
   - '*'
-  - POUND
-  - DOLLAR
-  - PERCENT
+  - '#'
+  - $
+  - '%'
   - ''''
   - {t: ':', s: '*', type: sym_by_sym}
   - )
@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - LCTRL
-  - {t: QUESTION, type: held}
+  - {t: '?', type: held}
   - F1
   - F2
   - F3
