@@ -58,6 +58,15 @@ parse_config:
       type: sym_by_sym
     AMPERSAND: "'"
     LEFT_PARENTHESIS: ")"
+
+    QUESTION: "?"
+    COLON: "+"
+    LESS_THAN: "<"
+    GREATER_THAN: ">"
+    EXCLAMATION: "!"
+    POUND: "#"
+    DOLLAR: "$"
+    PERCENT: "%"
     
     NUMBER_1:
       tap: "1"
