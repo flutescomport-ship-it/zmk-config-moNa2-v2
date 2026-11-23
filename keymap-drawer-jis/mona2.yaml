@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - '@'
   - '['
-  - $
+  - INT1
   - SLASH
   - (
   - '4'
@@ -69,7 +69,7 @@ layers:
   - {type: held}
   - LESS THAN
   - GREATER THAN
-  - {t: ▽, type: trans}
+  - INT3
   - {t: ▽, type: trans}
   - MINUS
   - '~'
