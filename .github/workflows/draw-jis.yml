@@ -2,9 +2,18 @@ name: "Draw ZMK Keymap (JIS)"
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "config/mona2.keymap"
+      - "config/mona2.dtsi"
+      - "keymap_drawer_jis.config.yaml"
+      - ".github/workflows/draw-jis.yml"
 
 jobs:
   draw:
+    if: github.actor != 'github-actions[bot]'
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2
     permissions:
       contents: write
