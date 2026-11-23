@@ -6,7 +6,10 @@ parse_config:
     BACKSLASH: "]"
     PLUS: "~"
     ASTERISK: "("
-    EQUAL: "^"
+    EQUAL:
+      tap: "^"
+      shifted: "~"
+      type: "sym_by_sym"
     AT_SIGN: '"'
     LEFT_BRACE: "`"
     RIGHT_BRACE: "{"
