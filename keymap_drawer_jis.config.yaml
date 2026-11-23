@@ -18,14 +18,27 @@ parse_config:
     CARET: "$"
     PIPE: "}"
     UNDERSCORE: "="
-    SQT: ":"
+    SQT:
+      tap: ":"
+      shifted: "*"
+      type: sym_by_sym
     COLON: "+"
+    SEMICOLON:
+      tap: ";"
+      shifted: "+"
+      type: sym_by_sym
     AMPERSAND: "'"
     LEFT_PARENTHESIS: ")"
 
     # 日本語配列固有のキー
-    INT1: "\\"
-    INT3: "\\"
+    INT1:
+      tap: "\\"
+      shifted: "_"
+      type: sym_by_sym
+    INT3:
+      tap: "\\"
+      shifted: "|"
+      type: sym_by_sym
 
     # 単独では文字が入力されなかったキー
     GRAVE: "—"
