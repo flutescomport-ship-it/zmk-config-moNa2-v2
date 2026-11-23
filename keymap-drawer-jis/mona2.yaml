@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - '@'
   - '['
-  - CARET
+  - $
   - SLASH
   - (
   - '4'
@@ -93,17 +93,17 @@ layers:
   - DOLLAR
   - PERCENT
   - AMPERSAND
-  - SQT
+  - ':'
   - LEFT PARENTHESIS
   - RIGHT PARENTHESIS
-  - NON US BACKSLASH
-  - GRAVE
+  - —
+  - —
   - '"'
   - '`'
   - '{'
-  - PIPE
-  - UNDERSCORE
-  - TILDE
+  - '}'
+  - '='
+  - —
   - '&mkp MB1'
   - '&mkp MB2'
   - LCTRL
