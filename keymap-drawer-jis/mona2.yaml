@@ -55,7 +55,7 @@ layers:
   - {t: '9', s: ), type: sym_by_sym}
   - '0'
   - {t: ▽, type: trans}
-  - ']'
+  - {t: ']', s: '}', type: sym_by_sym}
   - {t: '@', s: '{', type: sym_by_sym}
   - {t: '[', s: '`', type: sym_by_sym}
   - {t: \, s: _, type: sym_by_sym}
