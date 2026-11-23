@@ -1,8 +1,14 @@
 parse_config:
   zmk_keycode_map:
     # JIS配列での実測結果
-    LEFT_BRACKET: "@"
-    RIGHT_BRACKET: "["
+    LEFT_BRACKET:
+      tap: "@"
+      shifted: "{"
+      type: sym_by_sym
+    RIGHT_BRACKET:
+      tap: "["
+      shifted: "`"
+      type: sym_by_sym
     BACKSLASH: "]"
     PLUS: "~"
     ASTERISK: "("
@@ -14,6 +20,22 @@ parse_config:
     LEFT_BRACE: "`"
     RIGHT_BRACE: "{"
     DOUBLE_QUOTES: "*"
+    MINUS:
+      tap: "-"
+      shifted: "="
+      type: sym_by_sym
+    SLASH:
+      tap: "/"
+      shifted: "?"
+      type: sym_by_sym
+    COMMA:
+      tap: ","
+      shifted: "<"
+      type: sym_by_sym
+    PERIOD:
+      tap: "."
+      shifted: ">"
+      type: sym_by_sym
 
     CARET: "$"
     PIPE: "}"
