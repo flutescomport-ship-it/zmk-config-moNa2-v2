@@ -51,10 +51,50 @@ parse_config:
       type: sym_by_sym
     AMPERSAND: "'"
     LEFT_PARENTHESIS: ")"
+    
+    NUMBER_1:
+      tap: "1"
+      shifted: "!"
+      type: sym_by_sym
 
+    NUMBER_2:
+      tap: "2"
+      shifted: '"'
+      type: sym_by_sym
+
+    NUMBER_3:
+      tap: "3"
+      shifted: "#"
+      type: sym_by_sym
+
+    NUMBER_4:
+      tap: "4"
+      shifted: "$"
+      type: sym_by_sym
+
+    NUMBER_5:
+      tap: "5"
+      shifted: "%"
+      type: sym_by_sym
+      
     NUMBER_6:
       tap: "6"
       shifted: "&"
+      type: sym_by_sym
+      
+    NUMBER_7:
+      tap: "7"
+      shifted: "'"
+      type: sym_by_sym
+
+    NUMBER_8:
+      tap: "8"
+      shifted: "("
+      type: sym_by_sym
+
+    NUMBER_9:
+      tap: "9"
+      shifted: ")"
       type: sym_by_sym
 
     # 日本語配列固有のキー
