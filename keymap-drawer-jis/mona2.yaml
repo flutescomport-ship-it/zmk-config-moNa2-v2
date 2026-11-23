@@ -32,7 +32,7 @@ layers:
   - N
   - M
   - {t: ',', s: <, type: sym_by_sym}
-  - DOT
+  - {t: ., s: '>', type: sym_by_sym}
   - {t: /, h: RIGHT SHIFT, s: '?'}
   - LEFT CONTROL
   - LEFT WIN
