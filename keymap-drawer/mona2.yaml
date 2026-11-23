@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: '&to_layer_0 COLON', h: '4'}
+  - {t: '&to_layer_0 SQT', h: '4'}
   - {t: '&to_layer_0 SEMICOLON', h: '4'}
   - N
   - M
@@ -55,28 +55,28 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - \
-  - '['
-  - ']'
   - INT1
+  - ']'
+  - \
+  - {t: ▽, type: trans}
   - /
-  - '*'
+  - Sft+'
   - '4'
   - '5'
   - '6'
   - .
   - '&to_layer_0 NUMBER_0'
   - {type: held}
-  - <
-  - '>'
-  - INT3
+  - Sft+KP COMMA
+  - Sft+.
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - +
+  - Sft+;
   - '1'
   - '2'
   - '3'
-  - '='
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,22 +92,22 @@ layers:
   - '#'
   - $
   - '%'
-  - '&'
-  - ''''
-  - (
-  - )
-  - \
-  - '`'
-  - '@'
-  - '{'
-  - '}'
-  - '|'
-  - _
-  - '~'
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - INT1
+  - Sft+7
+  - '['
+  - Sft+[
+  - Sft+\
+  - Sft+INT3
+  - Sft+INTERNATIONAL 1
+  - Sft+=
   - '&mkp MB1'
   - '&mkp MB2'
-  - LCTRL
-  - {t: '?', type: held}
+  - '='
+  - {t: Sft+/, type: held}
   - F1
   - F2
   - F3
