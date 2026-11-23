@@ -30,6 +30,11 @@ parse_config:
     AMPERSAND: "'"
     LEFT_PARENTHESIS: ")"
 
+    NUMBER_6:
+      tap: "6"
+      shifted: "&"
+      type: sym_by_sym
+
     # 日本語配列固有のキー
     INT1:
       tap: "\\"
