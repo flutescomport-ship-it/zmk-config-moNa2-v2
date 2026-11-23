@@ -1,9 +1,9 @@
-
 parse_config:
   zmk_keycode_map:
-    # 以前に確認した記号
+    # JIS配列での実測結果
     LEFT_BRACKET: "@"
     RIGHT_BRACKET: "["
+    BACKSLASH: "]"
     PLUS: "~"
     ASTERISK: "("
     EQUAL: "^"
@@ -12,14 +12,20 @@ parse_config:
     RIGHT_BRACE: "{"
     DOUBLE_QUOTES: "*"
 
-    # 今回確認した記号
     CARET: "$"
     PIPE: "}"
     UNDERSCORE: "="
     SQT: ":"
     COLON: "+"
+    AMPERSAND: "'"
+    LEFT_PARENTHESIS: ")"
 
-    # Windows 11で何も入力されなかったキー
+    # 日本語配列固有のキー
+    INT1: "\\"
+    INT3: "\\"
+
+    # 単独では文字が入力されなかったキー
     GRAVE: "—"
     NON_US_BACKSLASH: "—"
     TILDE: "—"
+    RIGHT_PARENTHESIS: "—"
