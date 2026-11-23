@@ -36,6 +36,10 @@ parse_config:
       tap: "."
       shifted: ">"
       type: sym_by_sym
+    DOT:
+      tap: "."
+      shifted: ">"
+      type: sym_by_sym
 
     CARET: "$"
     PIPE: "}"
