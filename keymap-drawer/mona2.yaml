@@ -55,10 +55,10 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - '['
   - ']'
-  - ^
+  - INT1
   - /
   - '*'
   - '4'
@@ -69,7 +69,7 @@ layers:
   - {type: held}
   - <
   - '>'
-  - {t: ▽, type: trans}
+  - INT3
   - {t: ▽, type: trans}
   - '-'
   - +
