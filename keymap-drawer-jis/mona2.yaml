@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - {t: '&to_layer_0 SQT', h: '4'}
-  - {t: '&to_layer_0 SEMICOLON', h: '4'}
+  - {t: ':', h: layer_4, s: '*', type: sym_by_sym}
+  - {t: ;, h: layer_4, s: +, type: sym_by_sym}
   - N
   - M
   - {t: ',', s: <, type: sym_by_sym}
@@ -65,7 +65,7 @@ layers:
   - {t: '5', s: '%', type: sym_by_sym}
   - {t: '6', s: '&', type: sym_by_sym}
   - {t: ., s: '>', type: sym_by_sym}
-  - '&to_layer_0 NUMBER_0'
+  - {t: '0', h: → layer_0}
   - {type: held}
   - <
   - '>'
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
