@@ -1,73 +1,10 @@
 parse_config:
   zmk_keycode_map:
-    # JIS配列での実測結果
-    LEFT_BRACKET:
-      tap: "@"
-      shifted: "{"
-      type: sym_by_sym
-    RIGHT_BRACKET:
-      tap: "["
-      shifted: "`"
-      type: sym_by_sym
-    BACKSLASH:
-      tap: "]"
-      shifted: "}"
-      type: sym_by_sym
-    PLUS: "~"
-    ASTERISK: "("
-    EQUAL:
-      tap: "^"
-      shifted: "~"
-      type: "sym_by_sym"
-    AT_SIGN: '"'
-    LEFT_BRACE: "`"
-    RIGHT_BRACE: "{"
-    DOUBLE_QUOTES: "*"
-    MINUS:
-      tap: "-"
-      shifted: "="
-      type: sym_by_sym
-    SLASH:
-      tap: "/"
-      shifted: "?"
-      type: sym_by_sym
-    COMMA:
-      tap: ","
-      shifted: "<"
-      type: sym_by_sym
-    PERIOD:
-      tap: "."
-      shifted: ">"
-      type: sym_by_sym
-    DOT:
-      tap: "."
-      shifted: ">"
-      type: sym_by_sym
 
-    CARET: "$"
-    PIPE: "}"
-    UNDERSCORE: "="
-    SQT:
-      tap: ":"
-      shifted: "*"
-      type: sym_by_sym
-    COLON: "+"
-    SEMICOLON:
-      tap: ";"
-      shifted: "+"
-      type: sym_by_sym
-    AMPERSAND: "'"
-    LEFT_PARENTHESIS: ")"
+    # ==============================
+    # 数字キー
+    # ==============================
 
-    QUESTION: "?"
-    COLON: "+"
-    LESS_THAN: "<"
-    GREATER_THAN: ">"
-    EXCLAMATION: "!"
-    POUND: "#"
-    DOLLAR: "$"
-    PERCENT: "%"
-    
     NUMBER_1:
       tap: "1"
       shifted: "!"
@@ -92,12 +29,17 @@ parse_config:
       tap: "5"
       shifted: "%"
       type: sym_by_sym
-      
+
+    N5:
+      tap: "5"
+      shifted: "%"
+      type: sym_by_sym
+
     NUMBER_6:
       tap: "6"
       shifted: "&"
       type: sym_by_sym
-      
+
     NUMBER_7:
       tap: "7"
       shifted: "'"
@@ -113,18 +55,187 @@ parse_config:
       shifted: ")"
       type: sym_by_sym
 
+    NUMBER_0: "0"
+
+    # ==============================
+    # 通常の記号キー
+    # 単独入力とShift併用の2段表示
+    # ==============================
+
+    MINUS:
+      tap: "-"
+      shifted: "="
+      type: sym_by_sym
+
+    EQUAL:
+      tap: "^"
+      shifted: "~"
+      type: sym_by_sym
+
+    LEFT_BRACKET:
+      tap: "@"
+      shifted: "`"
+      type: sym_by_sym
+
+    RIGHT_BRACKET:
+      tap: "["
+      shifted: "{"
+      type: sym_by_sym
+
+    BACKSLASH:
+      tap: "]"
+      shifted: "}"
+      type: sym_by_sym
+
+    SEMICOLON:
+      tap: ";"
+      shifted: "+"
+      type: sym_by_sym
+
+    SQT:
+      tap: ":"
+      shifted: "*"
+      type: sym_by_sym
+
+    COMMA:
+      tap: ","
+      shifted: "<"
+      type: sym_by_sym
+
+    PERIOD:
+      tap: "."
+      shifted: ">"
+      type: sym_by_sym
+
+    DOT:
+      tap: "."
+      shifted: ">"
+      type: sym_by_sym
+
+    SLASH:
+      tap: "/"
+      shifted: "?"
+      type: sym_by_sym
+
+    # ==============================
     # 日本語配列固有のキー
+    # ==============================
+
     INT1:
       tap: "\\"
       shifted: "_"
       type: sym_by_sym
+
     INT3:
       tap: "\\"
       shifted: "|"
       type: sym_by_sym
 
-    # 単独では文字が入力されなかったキー
+    # ==============================
+    # Shift修飾を内包する記号キー
+    # ==============================
+
+    EXCLAMATION: "!"
+    DOUBLE_QUOTES: "*"
+    POUND: "#"
+    DOLLAR: "$"
+    PERCENT: "%"
+    AMPERSAND: "'"
+    ASTERISK: "("
+    LEFT_PARENTHESIS: ")"
+    RIGHT_PARENTHESIS: "—"
+    PLUS: "~"
+    UNDERSCORE: "="
+    COLON: "+"
+    LESS_THAN: "<"
+    GREATER_THAN: ">"
+    QUESTION: "?"
+    AT_SIGN: '"'
+    CARET: "$"
+    LEFT_BRACE: "`"
+    RIGHT_BRACE: "{"
+    PIPE: "}"
+    TILDE: "—"
+
+    # ==============================
+    # 文字が入力されなかったキー
+    # ==============================
+
     GRAVE: "—"
     NON_US_BACKSLASH: "—"
-    TILDE: "—"
-    RIGHT_PARENTHESIS: "—"
+
+    # ==============================
+    # 明示的なShift修飾付きキーコード
+    # ==============================
+
+    LS(NUMBER_1): "!"
+    LS(NUMBER_2): '"'
+    LS(NUMBER_3): "#"
+    LS(NUMBER_4): "$"
+    LS(NUMBER_5): "%"
+    LS(NUMBER_6): "&"
+    LS(NUMBER_7): "'"
+    LS(NUMBER_8): "("
+    LS(NUMBER_9): ")"
+
+    LS(N1): "!"
+    LS(N2): '"'
+    LS(N3): "#"
+    LS(N4): "$"
+    LS(N5): "%"
+    LS(N6): "&"
+    LS(N7): "'"
+    LS(N8): "("
+    LS(N9): ")"
+
+    LS(MINUS): "="
+    LS(EQUAL): "~"
+    LS(LEFT_BRACKET): "`"
+    LS(RIGHT_BRACKET): "{"
+    LS(BACKSLASH): "}"
+    LS(SEMICOLON): "+"
+    LS(SQT): "*"
+    LS(COMMA): "<"
+    LS(PERIOD): ">"
+    LS(DOT): ">"
+    LS(SLASH): "?"
+    LS(INT1): "_"
+    LS(INT3): "|"
+
+  raw_binding_map:
+
+    # Shift修飾付きキーの直接表示
+
+    "&kp LS(NUMBER_1)": "!"
+    "&kp LS(NUMBER_2)": '"'
+    "&kp LS(NUMBER_3)": "#"
+    "&kp LS(NUMBER_4)": "$"
+    "&kp LS(NUMBER_5)": "%"
+    "&kp LS(NUMBER_6)": "&"
+    "&kp LS(NUMBER_7)": "'"
+    "&kp LS(NUMBER_8)": "("
+    "&kp LS(NUMBER_9)": ")"
+
+    "&kp LS(N1)": "!"
+    "&kp LS(N2)": '"'
+    "&kp LS(N3)": "#"
+    "&kp LS(N4)": "$"
+    "&kp LS(N5)": "%"
+    "&kp LS(N6)": "&"
+    "&kp LS(N7)": "'"
+    "&kp LS(N8)": "("
+    "&kp LS(N9)": ")"
+
+    "&kp LS(MINUS)": "="
+    "&kp LS(EQUAL)": "~"
+    "&kp LS(LEFT_BRACKET)": "`"
+    "&kp LS(RIGHT_BRACKET)": "{"
+    "&kp LS(BACKSLASH)": "}"
+    "&kp LS(SEMICOLON)": "+"
+    "&kp LS(SQT)": "*"
+    "&kp LS(COMMA)": "<"
+    "&kp LS(PERIOD)": ">"
+    "&kp LS(DOT)": ">"
+    "&kp LS(SLASH)": "?"
+    "&kp LS(INT1)": "_"
+    "&kp LS(INT3)": "|"
