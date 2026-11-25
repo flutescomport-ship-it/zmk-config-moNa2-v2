@@ -130,6 +130,16 @@ parse_config:
       tap: "\\"
       shifted: "|"
       type: sym_by_sym
+    
+    INTERNATIONAL_1:
+      tap: "\\"
+      shifted: "_"
+      type: sym_by_sym
+
+    INTERNATIONAL_3:
+      tap: "\\"
+      shifted: "|"
+      type: sym_by_sym
 
     # ==============================
     # Shift修飾を内包する記号キー
@@ -201,6 +211,9 @@ parse_config:
     LS(SLASH): "?"
     LS(INT1): "_"
     LS(INT3): "|"
+    LS(INTERNATIONAL_1): "_"
+    LS(INTERNATIONAL_3): "|"
+   
 
   raw_binding_map:
 
@@ -239,3 +252,5 @@ parse_config:
     "&kp LS(SLASH)": "?"
     "&kp LS(INT1)": "_"
     "&kp LS(INT3)": "|"
+    "&kp LS(INTERNATIONAL_1)": "_"
+    "&kp LS(INTERNATIONAL_3)": "|"
