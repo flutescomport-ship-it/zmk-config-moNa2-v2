@@ -85,9 +85,9 @@
             <&zip_scroll_scaler 1 6>;                           //スクロール量を1/4倍
     };
 
-    // レイヤー2：低速ポインタ移動
+    // レイヤー7：低速ポインタ移動
     precision {
-        layers = <2>;
+        layers = <7>;
         input-processors = <&zip_xy_scaler 1 4>;
         process-next;
     };
