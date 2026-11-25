@@ -414,7 +414,7 @@ path.combo {
 <g transform="translate(140, 84)" class="key sym_by_sym keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
 <text x="0" y="0" class="key sym_by_sym tap">[</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">`</text>
+<text x="0" y="-24" class="key sym_by_sym shifted">{</text>
 </g>
 <g transform="translate(196, 84)" class="key sym_by_sym keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
@@ -431,10 +431,9 @@ path.combo {
 <text x="0" y="0" class="key sym_by_sym tap">/</text>
 <text x="0" y="-24" class="key sym_by_sym shifted">?</text>
 </g>
-<g transform="translate(476, 84)" class="key sym_by_sym keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+:</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+*</text>
+<g transform="translate(476, 84)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">*</text>
 </g>
 <g transform="translate(532, 84)" class="key sym_by_sym keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
@@ -442,11 +441,12 @@ path.combo {
 <text x="0" y="0" class="key sym_by_sym tap layer-activator">4</text>
 </a><text x="0" y="-24" class="key sym_by_sym shifted">$</text>
 </g>
-<g transform="translate(588, 84)" class="key keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(588, 84)" class="key sym_by_sym keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
 <a href="#x_x">
-<text x="0" y="0" class="key tap layer-activator">5</text>
-</a></g>
+<text x="0" y="0" class="key sym_by_sym tap layer-activator">5</text>
+</a><text x="0" y="-24" class="key sym_by_sym shifted">%</text>
+</g>
 <g transform="translate(644, 84)" class="key sym_by_sym keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
 <a href="#x_x">
@@ -467,15 +467,13 @@ path.combo {
 <g transform="translate(84, 140)" class="key held keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(140, 140)" class="key sym_by_sym keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+,</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+&lt;</text>
+<g transform="translate(140, 140)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&lt;</text>
 </g>
-<g transform="translate(196, 140)" class="key sym_by_sym keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+.</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+&gt;</text>
+<g transform="translate(196, 140)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&gt;</text>
 </g>
 <g transform="translate(252, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -490,10 +488,9 @@ path.combo {
 <text x="0" y="0" class="key sym_by_sym tap">-</text>
 <text x="0" y="-24" class="key sym_by_sym shifted">=</text>
 </g>
-<g transform="translate(476, 140)" class="key sym_by_sym keypos-28">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+;</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft++</text>
+<g transform="translate(476, 140)" class="key keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">+</text>
 </g>
 <g transform="translate(532, 140)" class="key sym_by_sym keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
@@ -513,10 +510,9 @@ path.combo {
 <text x="0" y="0" class="key sym_by_sym tap layer-activator">3</text>
 </a><text x="0" y="-24" class="key sym_by_sym shifted">#</text>
 </g>
-<g transform="translate(700, 140)" class="key sym_by_sym keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+-</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+=</text>
+<g transform="translate(700, 140)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">=</text>
 </g>
 <g transform="translate(28, 196)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -592,55 +588,47 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">%</text>
 </g>
-<g transform="translate(476, 28)" class="key sym_by_sym keypos-5">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+6</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+&amp;</text>
+<g transform="translate(476, 28)" class="key keypos-5">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&amp;</text>
 </g>
-<g transform="translate(532, 28)" class="key sym_by_sym keypos-6">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+7</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+&#x27;</text>
+<g transform="translate(532, 28)" class="key keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
-<g transform="translate(588, 28)" class="key sym_by_sym keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+8</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+(</text>
+<g transform="translate(588, 28)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">(</text>
 </g>
-<g transform="translate(644, 28)" class="key sym_by_sym keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+9</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+)</text>
+<g transform="translate(644, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">)</text>
 </g>
 <g transform="translate(700, 28)" class="key sym_by_sym keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
 <text x="0" y="0" class="key sym_by_sym tap">\</text>
 <text x="0" y="-24" class="key sym_by_sym shifted">_</text>
 </g>
-<g transform="translate(28, 84)" class="key sym_by_sym keypos-10">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+7</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+&#x27;</text>
+<g transform="translate(28, 84)" class="key keypos-10">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(84, 84)" class="key sym_by_sym keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
 <text x="0" y="0" class="key sym_by_sym tap">@</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">{</text>
+<text x="0" y="-24" class="key sym_by_sym shifted">`</text>
 </g>
-<g transform="translate(140, 84)" class="key sym_by_sym keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+@</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+{</text>
+<g transform="translate(140, 84)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">`</text>
 </g>
-<g transform="translate(196, 84)" class="key sym_by_sym keypos-13">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+]</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+}</text>
+<g transform="translate(196, 84)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">}</text>
 </g>
-<g transform="translate(252, 84)" class="key sym_by_sym keypos-14">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+\</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+|</text>
+<g transform="translate(252, 84)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">|</text>
 </g>
 <g transform="translate(420, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -648,10 +636,9 @@ path.combo {
 <tspan x="0" dy="-1.2em" style="font-size: 64%">Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">INTERNATIO…</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">1</tspan>
 </text>
 </g>
-<g transform="translate(476, 84)" class="key sym_by_sym keypos-16">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key sym_by_sym"/>
-<text x="0" y="0" class="key sym_by_sym tap">Sft+^</text>
-<text x="0" y="-24" class="key sym_by_sym shifted">Sft+~</text>
+<g transform="translate(476, 84)" class="key keypos-16">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">~</text>
 </g>
 <g transform="translate(532, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -672,8 +659,7 @@ path.combo {
 </g>
 <g transform="translate(700, 84)" class="key held keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">Sft+/</text>
-<text x="0" y="-24" class="key held shifted">Sft+?</text>
+<text x="0" y="0" class="key held tap">?</text>
 </g>
 <g transform="translate(28, 140)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
