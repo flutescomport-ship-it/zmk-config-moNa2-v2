@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp NUMBER_5                       &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                &kp INT1      &kp RIGHT_BRACKET  &kp BACKSLASH  &trans                  &kp SLASH  &kp LS(SQT)        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&to_layer_0 NUMBER_0  &trans        &kp LS(KP_COMMA)   &kp LS(DOT)    &trans        &trans    &kp MINUS  &kp LS(SEMICOLON)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)
-&trans                &trans        &trans             &kp DEL        &trans        &trans    &trans     &trans                                                       &kp COMMA
+&kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4   &kp NUMBER_5                                  &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp PLUS              &kp INT1      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SQT                            &kp SLASH  &kp LS(SQT)        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
+&to_layer_0 NUMBER_0  &trans        &kp LS(COMMA)      &kp LS(DOT)    &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS  &kp LS(SEMICOLON)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)
+&trans                &trans        &trans             &kp DEL        &trans         &trans              &trans     &trans                                                       &kp COMMA
             >;
 
             sensor-bindings = <&scroll_right_left>;
