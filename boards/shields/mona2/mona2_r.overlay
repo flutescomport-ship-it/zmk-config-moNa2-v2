@@ -71,7 +71,7 @@
     // 通常のポインタ移動
     input-processors =
         <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
-        <&zip_xy_scaler 9 10>;
+        <&zip_xy_scaler 1 1>;
 
     // レイヤー3：スクロール
     scroller {
