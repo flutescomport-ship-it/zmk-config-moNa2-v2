@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: '&to_layer_0 COLON', h: '4'}
+  - {t: '&to_layer_0 SQT', h: '4'}
   - {t: '&to_layer_0 SEMICOLON', h: '4'}
   - N
   - M
@@ -54,29 +54,29 @@ layers:
   - {t: '8', s: (, type: sym_by_sym}
   - {t: '9', s: ), type: sym_by_sym}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ']', s: '}', type: sym_by_sym}
-  - {t: '@', s: '{', type: sym_by_sym}
-  - {t: '[', s: '`', type: sym_by_sym}
+  - '~'
   - {t: \, s: _, type: sym_by_sym}
+  - {t: '[', s: '`', type: sym_by_sym}
+  - {t: ']', s: '}', type: sym_by_sym}
+  - {t: ':', s: '*', type: sym_by_sym}
   - {t: /, s: '?', type: sym_by_sym}
-  - (
+  - {t: 'Sft+:', s: Sft+*, type: sym_by_sym}
   - {t: '4', s: $, type: sym_by_sym}
   - '5'
   - {t: '6', s: '&', type: sym_by_sym}
   - {t: ., s: '>', type: sym_by_sym}
   - '&to_layer_0 NUMBER_0'
   - {type: held}
+  - {t: 'Sft+,', s: Sft+<, type: sym_by_sym}
+  - {t: Sft+., s: Sft+>, type: sym_by_sym}
   - <
   - '>'
-  - {t: \, s: '|', type: sym_by_sym}
-  - {t: ▽, type: trans}
   - {t: '-', s: '=', type: sym_by_sym}
-  - '~'
+  - {t: Sft+;, s: Sft++, type: sym_by_sym}
   - {t: '1', s: '!', type: sym_by_sym}
   - {t: '2', s: '"', type: sym_by_sym}
   - {t: '3', s: '#', type: sym_by_sym}
-  - {t: ^, s: '~', type: sym_by_sym}
+  - {t: Sft+-, s: Sft+=, type: sym_by_sym}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,22 +92,22 @@ layers:
   - '#'
   - $
   - '%'
-  - ''''
-  - {t: ':', s: '*', type: sym_by_sym}
-  - )
-  - —
-  - —
-  - —
-  - '"'
-  - '`'
-  - '{'
-  - '}'
-  - '='
-  - —
+  - {t: Sft+6, s: Sft+&, type: sym_by_sym}
+  - {t: Sft+7, s: Sft+', type: sym_by_sym}
+  - {t: Sft+8, s: Sft+(, type: sym_by_sym}
+  - {t: Sft+9, s: Sft+), type: sym_by_sym}
+  - {t: \, s: _, type: sym_by_sym}
+  - {t: Sft+7, s: Sft+', type: sym_by_sym}
+  - {t: '@', s: '{', type: sym_by_sym}
+  - {t: Sft+@, s: 'Sft+{', type: sym_by_sym}
+  - {t: 'Sft+]', s: 'Sft+}', type: sym_by_sym}
+  - {t: Sft+\, s: Sft+|, type: sym_by_sym}
+  - Sft+INTERNATIONAL 1
+  - {t: Sft+^, s: Sft+~, type: sym_by_sym}
   - '&mkp MB1'
   - '&mkp MB2'
-  - LCTRL
-  - {t: '?', type: held}
+  - {t: ^, s: '~', type: sym_by_sym}
+  - {t: Sft+/, s: 'Sft+?', type: held}
   - F1
   - F2
   - F3
