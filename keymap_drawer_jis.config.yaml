@@ -254,3 +254,23 @@ parse_config:
     "&kp LS(INT3)": "|"
     "&kp LS(INTERNATIONAL_1)": "_"
     "&kp LS(INTERNATIONAL_3)": "|"
+
+    # 独自レイヤー切り替え動作
+
+    "&lt_to_layer_0 4 SQT":
+      tap: ":"
+      shifted: "*"
+      hold: "layer_4"
+      type: sym_by_sym
+
+    "&lt_to_layer_0 4 SEMICOLON":
+      tap: ";"
+      shifted: "+"
+      hold: "layer_4"
+      type: sym_by_sym
+
+    # 数字入力とレイヤー0への復帰
+
+    "&to_layer_0 NUMBER_0":
+      tap: "0"
+      hold: "→ layer_0"
