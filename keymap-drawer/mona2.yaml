@@ -20,15 +20,15 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: '7'}
   - {t: '?', h: '2'}
   - {t: Z, h: LEFT SHIFT}
   - {t: X, h: '1'}
   - C
   - V
   - B
-  - {t: '&to_layer_0 SQT', h: '4'}
-  - {t: '&to_layer_0 SEMICOLON', h: '4'}
+  - ''''
+  - ;
   - N
   - M
   - ','
@@ -54,11 +54,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - +
   - INT1
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - ''''
   - /
   - Sft+'
   - '4'
@@ -67,10 +67,10 @@ layers:
   - .
   - '&to_layer_0 NUMBER_0'
   - {type: held}
-  - Sft+KP COMMA
+  - Sft+,
   - Sft+.
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - <
+  - '>'
   - '-'
   - Sft+;
   - '1'
@@ -97,7 +97,7 @@ layers:
   - Sft+8
   - Sft+9
   - INT1
-  - Sft+7
+  - {t: ▽, type: trans}
   - '['
   - Sft+[
   - Sft+\
@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '='
-  - {t: Sft+/, type: held}
+  - {type: held}
   - F1
   - F2
   - F3
@@ -140,7 +140,7 @@ layers:
   - UP ARROW
   - {type: held}
   - {t: ▽, type: trans}
-  - LCAPS
+  - Sft+LCAPS
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&bootloader'
+  - {t: '&bootloader', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,8 +301,54 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  '7':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: '4'}
+  k: ESC
 - p: [11, 12]
   k: TAB
+- p: [26, 27]
+  k: '4'
+  l: [default]
