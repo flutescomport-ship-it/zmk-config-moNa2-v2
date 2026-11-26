@@ -97,7 +97,7 @@ layers:
   - Sft+8
   - Sft+9
   - INT1
-  - {t: ▽, type: trans}
+  - Sft+CAPSLOCK
   - '['
   - Sft+[
   - Sft+\
@@ -140,7 +140,7 @@ layers:
   - UP ARROW
   - {type: held}
   - {t: ▽, type: trans}
-  - Sft+CAPSLOCK
+  - Gui+P
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
