@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - {t: ':', h: layer_4, s: '*', type: sym_by_sym}
-  - {t: ;, h: layer_4, s: +, type: sym_by_sym}
+  - {t: ':', s: '*', type: sym_by_sym}
+  - {t: ;, s: +, type: sym_by_sym}
   - N
   - M
   - {t: ',', s: <, type: sym_by_sym}
@@ -199,8 +199,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&bootloader'
+  - {type: held}
+  - {t: '&bootloader', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -346,6 +346,9 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: '4'}
+  k: ESC
 - p: [11, 12]
   k: TAB
+- p: [26, 27]
+  k: '4'
+  l: [default]
