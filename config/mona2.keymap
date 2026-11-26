@@ -25,13 +25,21 @@
         compatible = "zmk,combos";
 
         layer4_ESC {
-            bindings = <&lt 4 ESC>;
+            bindings = <&kp ESC>;
             key-positions = <39 38>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+        };
+
+        layer4_access {
+            bindings = <&mo 4>;
+            key-positions = <26 27>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <200>;
+            layers = <0>;
         };
     };
 
@@ -76,10 +84,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R          &kp T                                                            &kp Y        &kp U  &kp I      &lt 3 O  &kp P
-&kp A             &kp S         &kp D         &kp F          &kp G                                &kp MINUS                   &kp H        &kp J  &kp K      &lt 7 L  &lt 2 QUESTION
-&mt LEFT_SHIFT Z  &lt 1 X       &kp C         &kp V          &kp B        &lt_to_layer_0 4 SQT    &lt_to_layer_0 4 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &lt 3 LANG2             &lt 3 LANG1                 &lt 1 ENTER                             &mt RIGHT_CONTROL DELETE
+&kp Q             &kp W         &kp E         &kp R          &kp T                                      &kp Y        &kp U  &kp I      &lt 3 O  &kp P
+&kp A             &kp S         &kp D         &kp F          &kp G                       &kp MINUS      &kp H        &kp J  &kp K      &lt 7 L  &lt 2 QUESTION
+&mt LEFT_SHIFT Z  &lt 1 X       &kp C         &kp V          &kp B        &kp SQT        &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &lt 3 LANG2    &lt 3 LANG1    &lt 1 ENTER                             &mt RIGHT_CONTROL DELETE
             >;
 
             sensor-bindings = <&scroll_up_down>;
