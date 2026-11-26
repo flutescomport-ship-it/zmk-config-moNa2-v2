@@ -97,7 +97,7 @@ layers:
   - (
   - )
   - {t: \, s: _, type: sym_by_sym}
-  - ''''
+  - {t: ▽, type: trans}
   - {t: '@', s: '`', type: sym_by_sym}
   - '`'
   - '}'
@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ^, s: '~', type: sym_by_sym}
-  - {t: '?', type: held}
+  - {type: held}
   - F1
   - F2
   - F3
