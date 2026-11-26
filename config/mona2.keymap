@@ -106,10 +106,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp POUND             &kp DOLLAR         &kp PERCENT                                       &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp INT1
-&kp LS(NUMBER_7)  &kp LEFT_BRACKET   &kp LS(LEFT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(INT3)             &kp LS(INTERNATIONAL_1)  &kp LS(EQUAL)     &mkp MB1          &mkp MB2          &kp EQUAL         &kp LS(SLASH)
-&kp F1            &kp F2             &kp F3                &kp F4             &kp F5        &kp F11    &kp F12                  &kp F6            &kp F7            &kp F8            &kp F9            &kp F10
-&kp LEFT_ALT      &trans             &trans                &trans             &trans        &trans     &kp RIGHT_ALT            &trans                                                                  &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND             &kp DOLLAR         &kp PERCENT                                       &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp INT1
+&trans           &kp LEFT_BRACKET   &kp LS(LEFT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(INT3)             &kp LS(INTERNATIONAL_1)  &kp LS(EQUAL)     &mkp MB1          &mkp MB2          &kp EQUAL         &trans
+&kp F1           &kp F2             &kp F3                &kp F4             &kp F5        &kp F11    &kp F12                  &kp F6            &kp F7            &kp F8            &kp F9            &kp F10
+&kp LEFT_ALT     &trans             &trans                &trans             &trans        &trans     &kp RIGHT_ALT            &trans                                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
