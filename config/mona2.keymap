@@ -85,7 +85,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R          &kp T                                      &kp Y        &kp U  &kp I      &lt 3 O  &kp P
-&kp A             &kp S         &kp D         &kp F          &kp G                       &kp LS(LCAPS)  &kp H        &kp J  &kp K      &lt 7 L  &lt 2 QUESTION
+&kp A             &kp S         &kp D         &kp F          &kp G                       &kp MINUS      &kp H        &kp J  &kp K      &lt 7 L  &lt 2 QUESTION
 &mt LEFT_SHIFT Z  &lt 1 X       &kp C         &kp V          &kp B        &kp SQT        &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE  &lt 3 LANG2    &lt 3 LANG1    &lt 1 ENTER                             &mt RIGHT_CONTROL DELETE
             >;
@@ -117,10 +117,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE     &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LA(F4)                                               &trans  &kp DELETE      &kp UP_ARROW    &trans           &trans
-&kp LS(LCAPS)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))                          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LSHIFT     &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &kp LS(LC(NUMBER_1))    &trans  &trans  &trans          &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans         &trans              &trans                  &trans                   &trans                   &trans                  &trans  &trans                                                   &trans
+&kp ESCAPE        &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &kp LA(F4)                                               &trans  &kp DELETE      &kp UP_ARROW    &trans           &trans
+&kp LS(CAPSLOCK)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))                          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LSHIFT        &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &kp LS(LC(NUMBER_1))    &trans  &trans  &trans          &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&trans            &trans              &trans                  &trans                   &trans                   &trans                  &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
