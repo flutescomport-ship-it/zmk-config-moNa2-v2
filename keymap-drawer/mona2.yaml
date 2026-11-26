@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+LCAPS
+  - '-'
   - H
   - J
   - K
@@ -140,7 +140,7 @@ layers:
   - UP ARROW
   - {type: held}
   - {t: ▽, type: trans}
-  - Sft+LCAPS
+  - Sft+CAPSLOCK
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
